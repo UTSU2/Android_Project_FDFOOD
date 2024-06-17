@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:src="@drawable/dish"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/scdream5"
+            android:text="맛.ZIP 추천"
+            android:textSize="50dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6C2DC7"
+            android:text="음식 종류 고르기"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="@font/scdream5"
+            android:padding="5dp"
+            android:importantForAccessibility="no" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioKorea"
+            android:text="한식"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioJapan"
+            android:text="일식"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioChina"
+            android:text="중식"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioWest"
+            android:text="양식"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioOthers"
+            android:text="기타"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFoodRecommend"
+        android:text="추천"
+        android:textSize="18dp"
+        android:fontFamily="@font/scdream5"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_pattern"/>
+
+    <TextView
+        android:id="@+id/FoodRecommended"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:fontFamily="@font/scdream5"
+        android:layout_margin="10dp"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="bottom|center">
+
+        <Button
+            android:id="@+id/return1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_pattern"
+            android:fontFamily="@font/scdream5"
+            android:text="돌아가기"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+    
+</LinearLayout>

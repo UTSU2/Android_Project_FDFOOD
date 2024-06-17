@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:src="@drawable/dish"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/scdream5"
+            android:text="중식 맛.ZIP"
+            android:textSize="50dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6C2DC7"
+            android:text="평점별 정렬"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="@font/scdream5"
+            android:padding="5dp"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="485dp">
+
+        <TextView
+            android:id="@+id/chinaFoodText"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/scdream5"
+            android:textSize="30dp"/>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom|center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/return1"
+            android:text="돌아가기"
+            android:textSize="18dp"
+            android:fontFamily="@font/scdream5"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_pattern" />
+    </LinearLayout>
+
+</LinearLayout>
