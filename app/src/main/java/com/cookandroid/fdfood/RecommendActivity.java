@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -58,31 +59,44 @@ public class RecommendActivity extends Activity {
                 int count;
                 int randomNumber;
                 Random random = new Random();
+                String foodInfo = null;
+                count = fileManager.countLines(RecommendActivity.this, "koreaFood.txt");
                 if(randWhichFood.equals("한식")){
-                    count = fileManager.countLines(RecommendActivity.this,"koreaFood.txt");
-                    randomNumber = random.nextInt(count) + 1;
-                    String FoodInfo = fileManager.readLine(RecommendActivity.this,"koreaFood.txt",randomNumber);
-                    FoodInfoText.setText(FoodInfo);
+                    count = fileManager.countLines(RecommendActivity.this, "koreaFood.txt");
+                    if (count > 0) {
+                        randomNumber = random.nextInt(count) + 1;
+                        foodInfo = fileManager.readLine(RecommendActivity.this, "koreaFood.txt", randomNumber);
+                    }
                 } else if(randWhichFood.equals("일식")){
-                    count = fileManager.countLines(RecommendActivity.this,"japanFood.txt");
-                    randomNumber = random.nextInt(count) + 1;
-                    String FoodInfo = fileManager.readLine(RecommendActivity.this,"japanFood.txt",randomNumber);
-                    FoodInfoText.setText(FoodInfo);
+                    count = fileManager.countLines(RecommendActivity.this, "japanFood.txt");
+                    if (count > 0) {
+                        randomNumber = random.nextInt(count) + 1;
+                        foodInfo = fileManager.readLine(RecommendActivity.this, "japanFood.txt", randomNumber);
+                    }
                 } else if(randWhichFood.equals("중식")){
-                    count = fileManager.countLines(RecommendActivity.this,"chinaFood.txt");
-                    randomNumber = random.nextInt(count) + 1;
-                    String FoodInfo = fileManager.readLine(RecommendActivity.this,"chinaFood.txt",randomNumber);
-                    FoodInfoText.setText(FoodInfo);
+                    count = fileManager.countLines(RecommendActivity.this, "chinaFood.txt");
+                    if (count > 0) {
+                        randomNumber = random.nextInt(count) + 1;
+                        foodInfo = fileManager.readLine(RecommendActivity.this, "chinaFood.txt", randomNumber);
+                    }
                 } else if(randWhichFood.equals("양식")){
-                    count = fileManager.countLines(RecommendActivity.this,"westernFood.txt");
-                    randomNumber = random.nextInt(count) + 1;
-                    String FoodInfo = fileManager.readLine(RecommendActivity.this,"westernFood.txt",randomNumber);
-                    FoodInfoText.setText(FoodInfo);
+                    count = fileManager.countLines(RecommendActivity.this, "westernFood.txt");
+                    if (count > 0) {
+                        randomNumber = random.nextInt(count) + 1;
+                        foodInfo = fileManager.readLine(RecommendActivity.this, "westernFood.txt", randomNumber);
+                    }
                 } else if(randWhichFood.equals("기타")){
-                    count = fileManager.countLines(RecommendActivity.this,"othersFood.txt");
-                    randomNumber = random.nextInt(count) + 1;
-                    String FoodInfo = fileManager.readLine(RecommendActivity.this,"othersFood.txt",randomNumber);
-                    FoodInfoText.setText(FoodInfo);
+                    count = fileManager.countLines(RecommendActivity.this, "othersFood.txt");
+                    if (count > 0) {
+                        randomNumber = random.nextInt(count) + 1;
+                        foodInfo = fileManager.readLine(RecommendActivity.this, "othersFood.txt", randomNumber);
+                    }
+                }
+
+                if (foodInfo != null) {
+                    FoodInfoText.setText(foodInfo);
+                } else {
+                    Toast.makeText(RecommendActivity.this, "내용이 비어 있습니다.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
