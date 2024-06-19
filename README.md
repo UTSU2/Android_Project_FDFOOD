@@ -40,7 +40,7 @@
 #### 2.2 결과물
 
 * 메인 화면
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/9628eda3-b864-4833-a85c-fb4f67b25129 width=50 height=100">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/9628eda3-b864-4833-a85c-fb4f67b25129 width=10 height=20">
 
 * 맛집 추천 화면
 <img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/82e5ebd3-298c-43f5-8b70-53642107326c width=50 height=100">
