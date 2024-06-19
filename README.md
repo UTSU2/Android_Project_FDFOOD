@@ -64,3 +64,6 @@
 * 전에 맛있게 먹었던 식당이 기억이 나지 않을 때 쉽게 찾아볼 수 있을 것이다.
 
 #### 2.4 발표영상
+
+Youtube 영상
+![youtube](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/983bae4a-5f43-47db-b05f-1773c5d41c53)(https://youtu.be/0l9yuwYUlZk)
