@@ -40,23 +40,23 @@
 #### 2.2 결과물
 
 * 메인 화면
-![main](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/9628eda3-b864-4833-a85c-fb4f67b25129){: width="30%" height="30%"}
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/9628eda3-b864-4833-a85c-fb4f67b25129.png" width="100" height="200">
 
 * 맛집 추천 화면
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/82e5ebd3-298c-43f5-8b70-53642107326c.png" width="150" height="100">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/82e5ebd3-298c-43f5-8b70-53642107326c.png" width="100" height="200">
 
 * 맛집 추가 화면
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/33ee4a95-3e6b-4ac0-8e48-449d54ef4ddd.png" width=50 height=100">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/33ee4a95-3e6b-4ac0-8e48-449d54ef4ddd.png" width="100" height="200">
 
 * 맛집 삭제 화면
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/885dc19c-e534-4b67-bd52-8ce1e5a78a00.png" width=50 height=100">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/885dc19c-e534-4b67-bd52-8ce1e5a78a00.png" width="100" height="200">
 
 * 각 음식 종류별 맛집 리스트 화면
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/94c26726-d36d-41f2-ba66-9482705583d3 width=50 height=100">
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/10faa475-a17a-4109-bc36-be0eed66b52c width=50 height=100">
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/589fef04-ad15-4b74-b6c2-dc1abe406c84 width=50 height=100">
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/e8f2d2a0-3925-46dc-bea4-4c8236b19655 width=50 height=100">
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/2173da4d-a5f9-4b23-835f-2e2e9d1e3937 width=50 height=100">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/94c26726-d36d-41f2-ba66-9482705583d3.png" width="100" height="200">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/10faa475-a17a-4109-bc36-be0eed66b52c.png" width="100" height="200">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/589fef04-ad15-4b74-b6c2-dc1abe406c84.png" width="100" height="200">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/e8f2d2a0-3925-46dc-bea4-4c8236b19655.png" width="100" height="200">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/2173da4d-a5f9-4b23-835f-2e2e9d1e3937.png" width="100" height="200">
 
 #### 2.3 기대효과
 
