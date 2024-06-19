@@ -66,4 +66,4 @@
 #### 2.4 발표영상
 
 Youtube 영상
-![youtube](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/983bae4a-5f43-47db-b05f-1773c5d41c53)(https://youtu.be/0l9yuwYUlZk)
+[![youtube](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/983bae4a-5f43-47db-b05f-1773c5d41c53)](https://youtu.be/0l9yuwYUlZk)
