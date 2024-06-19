@@ -43,7 +43,7 @@
 ![main](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/9628eda3-b864-4833-a85c-fb4f67b25129){: width="30%" height="30%"}
 
 * 맛집 추천 화면
-<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/82e5ebd3-298c-43f5-8b70-53642107326c.png" width=50 height=100">
+<img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/82e5ebd3-298c-43f5-8b70-53642107326c.png" width="150" height="100">
 
 * 맛집 추가 화면
 <img src="https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/33ee4a95-3e6b-4ac0-8e48-449d54ef4ddd.png" width=50 height=100">
