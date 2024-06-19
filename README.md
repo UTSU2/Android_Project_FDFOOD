@@ -40,14 +40,23 @@
 #### 2.2 결과물
 
 * 메인 화면
+![main](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/9628eda3-b864-4833-a85c-fb4f67b25129)
 
 * 맛집 추천 화면
+![recommend](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/82e5ebd3-298c-43f5-8b70-53642107326c)
 
 * 맛집 추가 화면
+![add](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/33ee4a95-3e6b-4ac0-8e48-449d54ef4ddd)
 
 * 맛집 삭제 화면
+![remove](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/885dc19c-e534-4b67-bd52-8ce1e5a78a00)
 
 * 각 음식 종류별 맛집 리스트 화면
+![korea](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/94c26726-d36d-41f2-ba66-9482705583d3)
+![japan](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/10faa475-a17a-4109-bc36-be0eed66b52c)
+![china](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/589fef04-ad15-4b74-b6c2-dc1abe406c84)
+![western](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/e8f2d2a0-3925-46dc-bea4-4c8236b19655)
+![guitar](https://github.com/UTSU2/Android_Project_FDFOOD/assets/125986716/2173da4d-a5f9-4b23-835f-2e2e9d1e3937)
 
 #### 2.3 기대효과
 
